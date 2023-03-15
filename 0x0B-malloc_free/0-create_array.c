@@ -1,14 +1,15 @@
 #include <stdlib.h>
 
 /**
- * make_char_array - creates an array of characters and initializes
- *                   each element with a specific character.
+ * create_array - creates an array of chars and initializes
+ *                it with a specific char.
  *
- * @size_of_array: size of the array to be created
- * @char_to_use: character to use to initialize each element of the array
+ * @size: array size
+ * @c: char to initialize array with
  *
- * Return: pointer to the created array
- */
+ * Return: array @a
+*/
+
 char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
